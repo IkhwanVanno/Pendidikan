@@ -62,7 +62,6 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 header h1 {
   margin: 0;
@@ -70,7 +69,6 @@ header h1 {
 }
 .navigasi {
     padding: 10px 20px;
-    overflow: hidden;
 }
 .navigasi a {
   text-decoration: none;
