@@ -62,10 +62,14 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header h1 {
   margin: 0;
   font-size: 2.5em;
+}
+.navigasi {
+  gap: 1rem;
 }
 .navigasi a {
   text-decoration: none;
