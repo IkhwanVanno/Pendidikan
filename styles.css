@@ -5,21 +5,30 @@ body {
   background-color: #f7f7f7;
   color: #333;
 }
-.container {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1200px;
-}
 header {
   background-color: #ffffff;
   color: #000000;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 header h1 {
   margin: 0;
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
 }
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .hero {
   background-image: url("https://asset-a.grid.id/crop/0x0:0x0/x/photo/2023/05/08/pendidikan-di-indonesiajpg-20230508085903.jpg");
   background-size: cover;
@@ -79,8 +88,9 @@ header h1 {
 }
 .container-produk {
   margin: 1rem;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  
+  padding: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .footer-container {
