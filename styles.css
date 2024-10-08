@@ -1,6 +1,44 @@
-@media (max-width: 768px) {
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navigasi {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 769px) {
   .container {
     width: 100%;
+  }
+
+  .navigasi {
+    display: none; /* Hide navbar by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navigasi a {
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger menu button on small screens */
+  }
+
+  /* Show the navigation menu when active */
+  .navigasi.active {
+    display: flex;
   }
 
   header h1 {
@@ -143,6 +181,7 @@ header h1 {
 .main-produk {
   display: flex;
   justify-content: space-between;
+  margin: 2rem;
 }
 .container-produk {
   width: 100%;
