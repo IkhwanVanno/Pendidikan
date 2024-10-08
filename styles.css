@@ -61,11 +61,16 @@ header {
   text-align: center;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 header h1 {
   margin: 0;
   font-size: 2.5em;
+}
+.navigasi a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #000000;
 }
 .hero {
   background-image: url("https://asset-a.grid.id/crop/0x0:0x0/x/photo/2023/05/08/pendidikan-di-indonesiajpg-20230508085903.jpg");
