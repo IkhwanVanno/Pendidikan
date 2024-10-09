@@ -23,8 +23,6 @@ html {
   overflow-x: hidden;
   width: 100vw;
   font-family: "Rubik", sans-serif;
-  /* position: relative; */
-  /* left: 2rem; */
 }
 
 li {
@@ -189,15 +187,13 @@ footer div h1 {
   html {
     overflow-x: hidden;
     width: 100vw;
-    /* position: relative;
-    left: 2rem; */
   }
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 83%;
+    width: 100%;
     position: fixed;
   }
 
@@ -272,9 +268,7 @@ footer div h1 {
 @media (min-width: 320px ) and (max-width:767px) {
   html {
     overflow-x: hidden;
-    width: 100vw;
-    /* position: relative;
-    left: 2rem; */
+    width: 100%;
   }
 
   header {
