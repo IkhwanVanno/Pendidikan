@@ -1,3 +1,4 @@
+//fitur scroll
 const btnHome = document.querySelector("button#home");
 const btnKeunggulan = document.querySelector("button#keunggulan");
 const btnKelas = document.querySelector("button#kelas");
