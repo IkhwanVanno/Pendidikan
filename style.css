@@ -9,6 +9,10 @@
   --clr-putih: #f4eed9;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -81,6 +85,28 @@ section.hero {
   background-size: 100% 100%;
   background-position: center;
   backdrop-filter: blur(50%);
+  gap: 1rem;
+}
+
+section.hero * {
+  padding: 0.5rem;
+}
+
+section.hero div button {
+  background-color: var(--clr-orange);
+  color: var(--txt-primary);
+  font-size: large;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px var(--txt-primary) solid;
+  cursor: pointer;
+}
+
+section.hero div button:hover {
+  background-color: var(--clr-putih);
+  color: var(--txt-primary);
+  transition: all;
+  transition-duration: 200ms;
 }
 
 section.keunggulan {
@@ -110,14 +136,29 @@ section.kelas * {
   padding: 0.5rem;
 }
 
+section.kelas div img{
+  width: 50px;
+}
+
+footer {
+  background-color: var(--txt-primary);
+  color: var(--txt-second);
+}
+
 footer .atas {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer .atas * {
   width: 100%;
+}
+
+footer .atas div ul li a {
+  color: var(--txt-second);
 }
 
 footer .medsos {
@@ -125,6 +166,22 @@ footer .medsos {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+}
+
+footer p a{
+  color: var(--txt-second);
+}
+
+footer div h1 {
+  font-size: large;
 }
 
 /* TABLET SCREEN */
