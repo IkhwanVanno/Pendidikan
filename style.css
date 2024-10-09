@@ -126,6 +126,10 @@ section.keunggulan * {
   padding: 0.5rem;
 }
 
+section.keunggulan * * {
+  text-align: center;
+}
+
 section.kelas {
   width: 100%;
   height: 100vh;
