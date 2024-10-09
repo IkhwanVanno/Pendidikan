@@ -6,7 +6,7 @@
 /* LAPTOP SCREEN */
 html {
   overflow-x: hidden;
-  width: 85vw;
+  width: 100vw;
   /* position: relative; */
   /* left: 2rem; */
 }
@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 100%;
   position: fixed;
   z-index: 10;
 }
@@ -174,7 +174,7 @@ footer .atas * {
 @media (min-width: 320px ) and (max-width:767px) {
   html {
     overflow-x: hidden;
-    width: 255vw;
+    width: 100vw;
     /* position: relative;
     left: 2rem; */
   }
@@ -183,7 +183,7 @@ footer .atas * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 100%;
     position: fixed;
   }
 
@@ -205,15 +205,20 @@ footer .atas * {
 
   section.hero {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url("https://asset-a.grid.id/crop/0x0:0x0/x/photo/2023/05/08/pendidikan-di-indonesiajpg-20230508085903.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size:100%;
+    /* background-position: center; */
+  }
+
+  section.hero div{
+    margin: 100px 50px 10px 50px;
+    text-align: center;
   }
 
   section.keunggulan {
@@ -221,6 +226,7 @@ footer .atas * {
     height: 100vh;
     background-color: #ff9966;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -234,6 +240,7 @@ footer .atas * {
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -245,7 +252,8 @@ footer .atas * {
 
   footer .atas {
     display: flex;
-    flex-direction: row;
+    text-align: center;
+    flex-direction: column;
     width: 100%;
   }
 
