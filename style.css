@@ -90,6 +90,11 @@ section.hero * {
   padding: 0.5rem;
 }
 
+section.hero div {
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+
 section.hero div button {
   background-color: var(--clr-orange);
   color: var(--txt-primary);
@@ -130,8 +135,18 @@ section.kelas {
   gap: 1rem;
 }
 
-section.kelas * {
+section.kelas div {
   padding: 0.5rem;
+  width: 30%;
+  height: 40vh;
+}
+
+section.kelas * * {
+  width: 100%;
+}
+
+section.kelas div {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 section.kelas div img{
@@ -155,6 +170,18 @@ footer .atas * {
   width: 100%;
 }
 
+footer .atas h1 {
+  text-align: center;
+}
+
+footer .atas div {
+  text-align: center;
+}
+
+footer .atas div * {
+  padding-top: 0.5rem;
+}
+
 footer .atas div ul li a {
   color: var(--txt-second);
 }
@@ -172,10 +199,17 @@ footer .medsos {
 footer p {
   width: 100%;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 footer p a{
   color: var(--txt-second);
+}
+
+footer p a:hover {
+  color: var(--clr-merah);
+  transition: all;
+  transition-duration: 200ms;
 }
 
 footer div h1 {
